@@ -1,5 +1,9 @@
 // derived from omegaboot by @idiidk, which is taken from quizziz
-module.exports = function decode(token){
+module.exports = {
+  decode: decode,
+  encode: encode
+}
+function decode(token){
   const t = arguments.length > 1 && void 0 !== arguments[1] && arguments[1];
   if(t){
     const header = extractHeader(token);
@@ -54,4 +58,23 @@ function extractVersion(token){
 function extractData(token){
   const position = token.charCodeAt(token.length - 2) - 33;
   return token.slice(position,-2);
+}
+
+function encode(e,t){
+  var o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:2;
+  var n=encodeRaw(t,!0);
+  var a=encodeRaw(e,!1,t);
+  var i=String.fromCharCode(33+n.length);
+  return"".concat(n).concat(a).concat(i).concat(o);
+}
+function encodeRaw(e,t){
+  var o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:"quizizz.com";
+  var n=0;n=t?o.charCodeAt(0):o.charCodeAt(0)+o.charCodeAt(o.length-1);
+  for(var a=[],i=0;i<e.length;i++){
+    var r=e[i];
+    var s=r.charCodeAt(0);
+    var c=t?safeAdd(s,n):addOffset(s,n,i,2);
+    a.push(String.fromCharCode(c));
+  }
+  return a.join("");
 }

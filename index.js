@@ -24,6 +24,7 @@ class Client extends EventEmitter {
       try {
         await this.resolveToken(pin);
         await this.getQuestions();
+        await this.createSocket();
       } catch (e) {
         return reject(e);
       }
@@ -64,6 +65,9 @@ class Client extends EventEmitter {
           this.handler = new handler(this.socket);
           this.socket.on("message",m=>{
             handler.message(m);
+          });
+          handler.on("ready",()=>{
+            // send packet
           });
           this.socket.send("2probe");
         });

@@ -59,7 +59,8 @@ function extractData(token){
   const position = token.charCodeAt(token.length - 2) - 33;
   return token.slice(position,-2);
 }
-
+// e = text to encode, t = password? (at least 2 characters)
+// a third argument sets the "version" string?
 function encode(e,t){
   var o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:2;
   var n=encodeRaw(t,!0);

@@ -1,0 +1,28 @@
+{
+  "name": "quizziz.js",
+  "version": "1.0.0",
+  "description": "A nodejs API to join quizziz games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theusaf/quizziz.js.git"
+  },
+  "keywords": [
+    "quizziz",
+    "bot",
+    "game",
+    "api"
+  ],
+  "author": "theusaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theusaf/quizziz.js/issues"
+  },
+  "homepage": "https://github.com/theusaf/quizziz.js#readme",
+  "dependencies": {
+    "got": "^11.3.0"
+  }
+}

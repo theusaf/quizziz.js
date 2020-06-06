@@ -1,0 +1,534 @@
+{
+  "__cid__":null,
+  "hash":"5edb11eafd60c3001bc441f4",
+  "type":"live",
+  "expiry":7200,
+  "createdAt":1591415274588,
+  "version":[{"type":"MCQ","version":1}],
+  "options":{
+    "memeset":"5cca21214674ff001de7a6e5",
+    "loginRequired":false,
+    "studentLeaderboard":true,
+    "timer":true,
+    "jumble":true,
+    "jumbleAnswers":true,
+    "memes":true,
+    "showAnswers_2":"always",
+    "studentQuizReview_2":"yes",
+    "showAnswers":true,
+    "studentQuizReview":true,
+    "limitAttempts":0,
+    "studentMusic":false,
+    "redemption":"yes",
+    "powerups":"yes",
+    "nicknameGenerator":false
+  },
+  "quizId":"5e97860fe46a11001bb8bcbb",
+  "experiment":"main_main",
+  "hostId":"5ec3594b543be1001bf6a739",
+  "hostSessionId":null,
+  "hostOccupation":"other",
+  "subscription":{"playerLimit":500},
+  "assignments":false,
+  "createGroup":null,
+  "groupIds":[],
+  "player":{
+    "isAllowed":true,
+    "loginRequired":false,
+    "attempts":[]
+  }
+}
+{
+  "__cid__": null,
+  "roomHash": "5edb11eafd60c3001bc441f4",
+  "traits": {
+    "isQuizWithoutCorrectAnswer": false
+  },
+  "questions": {
+    "57517da2dc89de4d5589c0d3": {
+      "_id": "57517da2dc89de4d5589c0d3",
+      "createdAt": "2016-06-03T12:52:50.922Z",
+      "updated": "2020-06-06T01:32:23.432Z",
+      "time": 60000,
+      "type": "MCQ",
+      "ver": 2,
+      "published": true,
+      "structure": {
+        "kind": "MCQ",
+        "query": {
+          "type": "text",
+          "media": [],
+          "text": "To calculate the amount of cardboard needed to make a cereal box, which of the following should you find:&nbsp;"
+        },
+        "options": [
+          {
+            "type": "text",
+            "text": "Area",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "Perimenter",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "Surface Area",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "Volume",
+            "media": []
+          }
+        ],
+        "answer": "¦¨¦¢¨&2"
+      },
+      "__v": 23,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    },
+    "5c5c8d61b07a47001a519b88": {
+      "_id": "5c5c8d61b07a47001a519b88",
+      "time": 300000,
+      "type": "MCQ",
+      "ver": 2,
+      "published": true,
+      "structure": {
+        "kind": "MCQ",
+        "options": [
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "650 cm<sup>2</sup>"
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "600 cm<sup>2</sup>"
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "525 cm<sup>2</sup>"
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "450 cm<sup>2</sup>"
+          }
+        ],
+        "query": {
+          "type": "text",
+          "hasMath": false,
+          "media": [],
+          "text": "A rectangular brick has a length of 5 centimeters, a width of &nbsp;9 centimeters and a height of 20 centimeters. What is the surface area of that brick?&nbsp;"
+        },
+        "answer": "¦Ô¦Ô©&2"
+      },
+      "createdAt": "2019-02-07T19:56:17.773Z",
+      "updated": "2020-06-05T18:51:47.686Z",
+      "__v": 6,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    },
+    "5c5c8d565dbdc1001bb15bbc": {
+      "_id": "5c5c8d565dbdc1001bb15bbc",
+      "time": 300000,
+      "type": "MCQ",
+      "ver": 2,
+      "published": true,
+      "structure": {
+        "kind": "MCQ",
+        "options": [
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "225 in<sup>2</sup>"
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "1350 in<sup>2</sup>"
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "3375 in<sup>2</sup>"
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "1125 in2"
+          }
+        ],
+        "query": {
+          "type": "text",
+          "hasMath": false,
+          "media": [],
+          "text": "A cube's side length measures 15 inches. &nbsp;What is the surface are of the cube?"
+        },
+        "answer": "¦Ô¦Ô©&2"
+      },
+      "createdAt": "2019-02-07T19:56:06.486Z",
+      "updated": "2020-06-05T18:51:47.686Z",
+      "__v": 6,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    },
+    "57517da2dc89de4d5589c0cb": {
+      "_id": "57517da2dc89de4d5589c0cb",
+      "createdAt": "2016-06-03T12:52:50.917Z",
+      "updated": "2020-06-06T01:32:23.432Z",
+      "time": 300000,
+      "type": "MCQ",
+      "ver": 2,
+      "published": true,
+      "structure": {
+        "kind": "MCQ",
+        "query": {
+          "type": "text-image",
+          "media": [
+            {
+              "type": "image",
+              "url": "https://quizizz.com/media/resource/gs/quizizz-media/questions/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVybC1yU1ZrZDRKWVhTVFJ2SlBOQ2JUV1BrNGhaWTlOQlhVWGpXMEF3eWRVVFdvb3Q4NmdQNkwyRzVlQ2d3d1prNUMyeXd5WkVkbVZCSFRRdFBjalFzZVlIQnN4QS5vVTlVWWJvTzhLTDd3NzBx"
+            }
+          ],
+          "text": "Find the total surface area of the prism."
+        },
+        "options": [
+          {
+            "type": "text",
+            "text": "48 square inches",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "64 square inches",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "88 square inches",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "76 square inches",
+            "media": []
+          }
+        ],
+        "answer": "¦¨¦¢¨&2"
+      },
+      "__v": 92,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    },
+    "5c5c8d5da68638001b4833b3": {
+      "_id": "5c5c8d5da68638001b4833b3",
+      "time": 60000,
+      "type": "MCQ",
+      "ver": 2,
+      "published": true,
+      "structure": {
+        "kind": "MCQ",
+        "options": [
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "The measure of the amount of space inside of a solid figure"
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "media": [],
+            "text": "The sum of all the areas of all the shapes that cover&nbsp;the object"
+          }
+        ],
+        "query": {
+          "type": "text",
+          "hasMath": false,
+          "media": [],
+          "text": "What is surface area?"
+        },
+        "answer": "¦Ô¦Ô©&2"
+      },
+      "createdAt": "2019-02-07T19:56:13.057Z",
+      "updated": "2020-06-05T18:51:47.686Z",
+      "__v": 11,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    },
+    "5c5c8d5319d9b1001bcf3744": {
+      "_id": "5c5c8d5319d9b1001bcf3744",
+      "time": 300000,
+      "type": "MCQ",
+      "ver": 2,
+      "published": true,
+      "structure": {
+        "kind": "MCQ",
+        "query": {
+          "type": "text-image",
+          "hasMath": false,
+          "text": "What is the surface area of this figure?",
+          "media": [
+            {
+              "type": "image",
+              "url": "https://quizizz.com/media/resource/gs/quizizz-media/questions/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVyeEpLbjY0TTZJZ3ZtNGVJUDMtdW83XzFaQ2xTcnoydE9faTRhYzc4Q3YydUNjaS00LUprNmhuUXJXN2l0dmtwMWttM3JRbVVOUzhza04ydnFHS2M0YnZMR1VnUS5SWVJGVUVaZFhabnpaQ1hI",
+              "meta": {
+                "width": null,
+                "height": null,
+                "text": null,
+                "bgColor": null
+              }
+            }
+          ]
+        },
+        "options": [
+          {
+            "type": "text",
+            "hasMath": false,
+            "text": "200 cm&nbsp;<sup>2</sup>",
+            "media": []
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "text": "800&nbsp;cm&nbsp;<sup>2</sup>",
+            "media": []
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "text": "400 cm&nbsp;<sup>2</sup>",
+            "media": []
+          },
+          {
+            "type": "text",
+            "hasMath": false,
+            "text": "100&nbsp;cm&nbsp;<sup>2</sup>",
+            "media": []
+          }
+        ],
+        "answer": "¦Ô¦Ô©&2"
+      },
+      "createdAt": "2019-02-07T19:56:03.659Z",
+      "updated": "2020-06-05T18:51:47.686Z",
+      "__v": 12,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    },
+    "58b6d77eaa3a7592482d2f27": {
+      "_id": "58b6d77eaa3a7592482d2f27",
+      "createdAt": "2017-03-01T14:15:26.679Z",
+      "updated": "2020-06-05T18:51:47.686Z",
+      "time": 120000,
+      "type": "MCQ",
+      "ver": 2,
+      "published": true,
+      "structure": {
+        "kind": "MCQ",
+        "query": {
+          "type": "text",
+          "media": [],
+          "text": "<div>Which example requires you to find the surface area?</div>"
+        },
+        "options": [
+          {
+            "type": "text",
+            "text": "<div>Finding out how much water will fill a cylinder</div>",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "<div>Finding out how much wrapping paper is needed to cover a present</div>",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "Finding the amount a container can hold",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "Finding out how much wood is needed to build a fence in your back yard.",
+            "media": []
+          }
+        ],
+        "answer": "¦©Ó§ÕÊ&2"
+      },
+      "__v": 13,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    },
+    "5721fc75d7f9c8bf7f69d837": {
+      "_id": "5721fc75d7f9c8bf7f69d837",
+      "createdAt": "2016-04-28T12:05:09.060Z",
+      "updated": "2020-06-05T20:33:22.917Z",
+      "time": 900000,
+      "type": "MCQ",
+      "ver": 2,
+      "published": true,
+      "structure": {
+        "kind": "MCQ",
+        "query": {
+          "type": "text-image",
+          "media": [
+            {
+              "type": "image",
+              "url": "https://quizizz.com/media/resource/gs/quizizz-media/questions/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVxMUc4Wkp3dzVETHJPcEs2UVd2Qzd1RFFab1lzRGpudDRxSkw4Q3I5anU1TnA5d0Q5ejdPalQ3VWVldk9lclFFRzZ6R2FSUFY5alh5bUZlYkY3d1pwQzBjME9idy5mUjRHa2hJalBkbFV3cS0z"
+            }
+          ],
+          "text": "Find the surface area of the rectangular prism."
+        },
+        "options": [
+          {
+            "type": "text",
+            "text": "94 cm. squared",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "60 cm. squared",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "12 cm. squared",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "19 cm. squared",
+            "media": []
+          }
+        ],
+        "answer": "¦¨£¢×Ë&2"
+      },
+      "__v": 16,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    },
+    "57517da2dc89de4d5589c0d4": {
+      "_id": "57517da2dc89de4d5589c0d4",
+      "createdAt": "2016-06-03T12:52:50.923Z",
+      "updated": "2020-06-05T18:51:47.686Z",
+      "time": 60000,
+      "type": "MCQ",
+      "ver": 2,
+      "published": true,
+      "structure": {
+        "kind": "MCQ",
+        "query": {
+          "type": "text",
+          "media": [],
+          "text": "To calculate the amount of carpeting needed for your bedroom, which of the following should you find:&nbsp;"
+        },
+        "options": [
+          {
+            "type": "text",
+            "text": "Area",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "Perimeter",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "Surface Area",
+            "media": []
+          },
+          {
+            "type": "text",
+            "text": "Volume",
+            "media": []
+          }
+        ],
+        "answer": "¦¨¦¢¨&2"
+      },
+      "__v": 11,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    },
+    "5af44b1c5d90a7001a976a82": {
+      "_id": "5af44b1c5d90a7001a976a82",
+      "updated": "2020-06-05T18:51:47.686Z",
+      "createdAt": "2018-05-10T13:37:32.855Z",
+      "structure": {
+        "options": [
+          {
+            "type": "text",
+            "media": [],
+            "hasMath": false,
+            "text": "140 in.<sub><sup></sup></sub><sup>2</sup>"
+          },
+          {
+            "type": "text",
+            "media": [],
+            "hasMath": false,
+            "text": "83 in.<sup>2</sup>"
+          },
+          {
+            "type": "text",
+            "media": [],
+            "hasMath": false,
+            "text": "166 in.&nbsp;<sup>2</sup>"
+          },
+          {
+            "type": "text",
+            "media": [],
+            "hasMath": false,
+            "text": "100 in.<sup>2</sup>"
+          }
+        ],
+        "kind": "MCQ",
+        "answer": "¦Ò×¥¥&2",
+        "query": {
+          "type": "text-image",
+          "media": [
+            {
+              "type": "image",
+              "meta": {
+                "width": null,
+                "height": null,
+                "text": null,
+                "bgColor": null
+              },
+              "url": "https://quizizz.com/media/resource/gs/quizizz-media/questions/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVxWHg1QnBvTTk1TnZkNVhmM2JPVDFuVmhveGZsSzgzV2ZhMXBKdjJtM0NVTDJ6N1AxNzVnTUpYeUE1Q0ZaZ3psa2RfclBibTJ0dm0tc0V4RnhydTRjSF9xWldGdy5ORnFTbmhtQmxvWmJCMGhS"
+            }
+          ],
+          "hasMath": false,
+          "text": "Find the surface area of the rectangular prism."
+        }
+      },
+      "published": true,
+      "ver": 2,
+      "type": "MCQ",
+      "time": 300000,
+      "__v": 1,
+      "state": "Unattempted",
+      "attempt": 0,
+      "cause": ""
+    }
+  }
+}

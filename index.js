@@ -1,5 +1,6 @@
 const path = require("path");
 const token = require("./src/token.js"));
+const handler = require("./src/messages.js");
 const got = require("got");
 const EventEmitter = require("events");
 const ws = require("ws");
@@ -34,7 +35,7 @@ class Client extends EventEmitter {
         const data = await got("https://game.quizizz.com/play-api/v3/checkRoom",{
           method: "POST",
           json: {
-            roomCode: "607771"
+            roomCode: pin
           }
         }).json();
         this.token = data.odata;
@@ -58,7 +59,14 @@ class Client extends EventEmitter {
       } catch (e) {
         reject(2);
       } finally {
-        this.socket.send("2probe");
+        this.socket.on("open",()=>{
+          resolve();
+          this.handler = new handler(this.socket);
+          this.socket.on("message",m=>{
+            handler.message(m);
+          });
+          this.socket.send("2probe");
+        });
       }
     });
   }

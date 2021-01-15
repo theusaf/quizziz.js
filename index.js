@@ -1,5 +1,5 @@
 const path = require("path");
-const token = require("./src/token.js"));
+const token = require("./src/token.js");
 const handler = require("./src/messages.js");
 const got = require("got");
 const EventEmitter = require("events");

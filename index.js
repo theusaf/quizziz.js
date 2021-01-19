@@ -53,10 +53,10 @@ class Client extends EventEmitter {
     return new Promise((resolve, reject) => {
       let data;
       try {
-        let data = await got("https://socket.quizizz.com/socket.io/?EIO=3&transport=polling");
+        let data = await got("https://socket.quizizz.com/socket.io/?EIO=4&transport=polling");
         data = JSON.parse("{" + data.body.split("{")[1]);
         this.sid = data.sid;
-        this.socket = new ws(`wss://socket.quizizz.com/socket.io/?EIO=3&transport=websocket&sid=${this.sid}`);
+        this.socket = new ws(`wss://socket.quizizz.com/socket.io/?EIO=4&transport=websocket&sid=${this.sid}`);
       } catch (e) {
         reject(2);
       } finally {

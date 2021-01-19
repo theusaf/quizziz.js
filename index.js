@@ -33,7 +33,7 @@ class Client extends EventEmitter {
   resolveToken(pin){
     return new Promise((resolve, reject) => {
       try {
-        const data = await got("https://game.quizizz.com/play-api/v3/checkRoom",{
+        const data = await got("https://game.quizizz.com/play-api/v4/checkRoom",{
           method: "POST",
           json: {
             roomCode: pin
@@ -77,7 +77,7 @@ class Client extends EventEmitter {
   getQuestions(){
     return new Promise((resolve, reject) => {
       try {
-        const data = await got("https://game.quizizz.com/play-api/v3/getQuestions",{
+        const data = await got("https://game.quizizz.com/play-api/v4/getQuestions",{
           method: "POST",
           json: {
             roomHash: this.hash,

@@ -19,7 +19,7 @@ class Client extends EventEmitter {
     this.socket = null;
   }
   join(name,pin){
-    return new Promise((resolve, reject) => {
+    return new Promise(async(resolve, reject) => {
       // setup
       try {
         await this.resolveToken(pin);
@@ -31,7 +31,7 @@ class Client extends EventEmitter {
     });
   }
   resolveToken(pin){
-    return new Promise((resolve, reject) => {
+    return new Promise(async(resolve, reject) => {
       try {
         const data = await got("https://game.quizizz.com/play-api/v4/checkRoom",{
           method: "POST",
@@ -50,7 +50,7 @@ class Client extends EventEmitter {
     });
   }
   createSocket(){
-    return new Promise((resolve, reject) => {
+    return new Promise(async(resolve, reject) => {
       let data;
       try {
         let data = await got("https://socket.quizizz.com/socket.io/?EIO=4&transport=polling");
@@ -75,7 +75,7 @@ class Client extends EventEmitter {
     });
   }
   getQuestions(){
-    return new Promise((resolve, reject) => {
+    return new Promise(async(resolve, reject) => {
       try {
         const data = await got("https://game.quizizz.com/play-api/v4/getQuestions",{
           method: "POST",

@@ -54,7 +54,7 @@ class Client extends EventEmitter {
       let data;
       try {
         let data = await got("https://socket.quizizz.com/socket.io/?EIO=3&transport=polling");
-        data = JSON.parse("{" + data.split("{")[1]);
+        data = JSON.parse("{" + data.body.split("{")[1]);
         this.sid = data.sid;
         this.socket = new ws(`wss://socket.quizizz.com/socket.io/?EIO=3&transport=websocket&sid=${this.sid}`);
       } catch (e) {

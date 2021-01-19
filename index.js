@@ -1,5 +1,4 @@
 const path = require("path");
-const token = require("./src/token.js");
 const handler = require("./src/messages.js");
 const got = require("got");
 const EventEmitter = require("events");
@@ -39,10 +38,8 @@ class Client extends EventEmitter {
             roomCode: pin
           }
         }).json();
-        this.token = data.odata;
-        const parsedData = token.decode(this.token);
-        this.hash = parsedData.hash;
-        this.gameOptions = parsedData.options;
+        this.hash = data.room.hash;
+        this.gameOptions = data.room.options;
       } catch (e) {
         return reject(0);
       }

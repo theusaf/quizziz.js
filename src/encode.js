@@ -1,1 +1,0 @@
-module.exports = function encodefunction(e,t){var o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:2,n=this.encodeRaw(t,!0),a=this.encodeRaw(e,!1,t),i=String.fromCharCode(F+n.length);return"".concat(n).concat(a).concat(i).concat(o)}

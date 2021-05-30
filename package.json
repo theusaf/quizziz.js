@@ -24,6 +24,6 @@
   "homepage": "https://github.com/theusaf/quizziz.js#readme",
   "dependencies": {
     "got": "^11.3.0",
-    "ws": "^7.3.0"
+    "ws": "^7.4.6"
   }
 }
